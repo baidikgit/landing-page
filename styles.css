@@ -1,0 +1,49 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+.banner{
+    padding:6rem 12rem;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    background-color: #1f2937;
+    font-family: 'Roboto',sans-serif;
+    flex:1;
+}
+.image{
+width:500px;
+height:auto;
+margin:2rem;
+}
+.text{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding:0 1rem;
+    justify-content: space-evenly;
+}
+
+.hero{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.basic{
+    font-size: 18px;
+    color:#e5e7eb;
+}
+
+.signup{
+    background-color: #3882f6;
+    color: #f9faf8;
+    width:100px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 7px;
+    height:2.5rem;
+    width:8rem;
+    align-content: center;
+}
