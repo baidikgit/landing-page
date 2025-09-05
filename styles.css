@@ -5,6 +5,16 @@ html, body {
   padding: 0;
   font-family: 'Roboto',sans-serif;
 }
+footer{
+    display: flex;
+    flex:1;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    padding:3rem 20rem;
+    color:#e5e7eb;
+}
+
 
 .banner{
     padding:6rem 12rem;
@@ -40,7 +50,7 @@ margin:2rem;
 .signup{
     background-color: #3882f6;
     color: #f9faf8;
-    width:100px;
+    
     font-family: 'Roboto',sans-serif;
     font-weight: bold;
     text-align: center;
@@ -48,6 +58,11 @@ margin:2rem;
     height:2.5rem;
     width:8rem;
     align-content: center;
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.signup:hover{
+    background-color: #6b96da;
+    transform: scale(1.05);
 }
 
 .items{
@@ -106,3 +121,37 @@ font-size: 18px;
 font-weight:700;
 text-align: right;
 }
+
+.adarea{
+    display:flex;
+    justify-content: center;
+    padding:6rem 16rem;
+}
+#add{
+    border:solid white;
+}
+.ad{
+    display: flex;
+    flex:1;
+    padding:2rem 6rem; 
+    color:#e5e7eb;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: #3882f6;
+    border-radius: 5px;
+}
+.cta{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+.main{
+    font-weight: 700;
+    font-size: 20px;
+}
+.sub{
+    font-weight: 300;
+    color:#e5e7ebe0;
+}
+
