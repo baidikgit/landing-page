@@ -5,6 +5,39 @@ html, body {
   padding: 0;
   font-family: 'Roboto',sans-serif;
 }
+header{
+    display: flex;
+    flex:1;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #1f2937;
+    padding:1rem 13rem;
+    
+}
+.headermain{
+    text-align: start;
+    font-weight: 800;
+    font-size: 24px;
+    color: #f9faf8;
+}
+.links{
+    padding:0 1rem;
+    display: flex;
+    flex-direction: row;
+    flex:1;
+    gap:1rem;
+    justify-content: end;
+}
+.link{
+color:#cacdd3;
+transition: color 0.2s ease;
+}
+.link:hover{
+    color:#f9faf8;
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
 footer{
     display: flex;
     flex:1;
@@ -62,6 +95,7 @@ margin:2rem;
 }
 .signup:hover{
     background-color: #6b96da;
+    cursor: pointer;
     transform: scale(1.05);
 }
 
@@ -91,7 +125,12 @@ margin:2rem;
       height: 120px;
       border: 3.5px solid #3882f6; 
       border-radius: 12px;       
-      margin: 0 auto 10px;       
+      margin: 0 auto 10px;
+      transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);     
+    }
+.box:hover{
+    cursor: pointer;
+    transform: scale(1.05);      
     }
 .itemtext{
 width:120px;
